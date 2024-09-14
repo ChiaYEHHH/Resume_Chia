@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
@@ -52,6 +53,7 @@
     <!-- 技能樹 -->
     <div class="container">
         <div class="row">
+
             <div class="col-lg-4 col-sm-6 mt-5 ps-4 pe-3">
                 <h4 class="skills text-center fw-bolder">後端</h4>
                 <hr>
@@ -60,7 +62,7 @@
             <div class="col-lg-4 col-sm-6 mt-5 ps-4 pe-3">
                 <h4 class="skills text-center fw-bolder">WEB</h4>
                 <hr>
-                <h6 class="skill">| HTML | CSS | JAVASCRIPT | JQUERY | BOOTSTRAP | AJAX | API |</h6>
+                <h6 class="skill">| HTML | JAVASCRIPT | JQUERY | BOOTSTRAP | AJAX | API | CSS |</h6>
             </div>
             <div class="col-lg-4 col-sm-6 mt-5 ps-4 pe-3">
                 <h4 class="skills text-center fw-bolder">資料庫</h4>
@@ -84,44 +86,131 @@
             </div>
         </div>
     </div>
-    <!-- 網頁設計技術 -->
+    <!-- 技能應用 -->
     <div class="container">
         <div class="row">
-            <div class="col">
-                <!-- 個人資料 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class=" p-2 border border-success-subtle rounded">
+                    <h4 class="text-center">MVC架構</h4>
+                    <p>分離業務邏輯與介面呈現，每個部分職責單一，代碼清晰，便於開發、測試與維護。</p>
+                </div>
             </div>
-            <div class="col">
-                <!-- 照片 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class=" p-2 border border-success-subtle rounded">
+                    <h4 class="text-center">RWD</h4>
+                    <p>根據不同設備尺寸調整版面與內容，確保在桌機、平板、手機等設備上都有最佳的使用體驗。</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class=" p-2 border border-success-subtle rounded">
+                    <h4 class="text-center">AJAX</h4>
+                    <p>不重新載入的情況下與伺服器進行資料交換，實現動態更新頁面內容，提升用戶體驗。</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class=" p-2 border border-success-subtle rounded">
+                    <h4 class="text-center">API</h4>
+                    <p>讓不同系統或應用透過標準化的請求和回應交換資料，簡化了系統整合，提升開發效率。</p>
+                </div>
             </div>
         </div>
     </div>
+
     <!-- 作品集 -->
-    <div class="container mt-5">
-
-        <div class="row">
-
+    <!-- Content section 1-->
+    <section id="scroll">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid" src="./portfolio/calendar.png" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2>Calendar</h2>
+                        <p>以PHP編寫萬年曆</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <!-- Content section 2-->
+    <section>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <a href="http://220.128.133.15/s1130112/"><img class="img-fluid "
+                                src="./portfolio/rwd_ongpage.png" alt="..." /></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2>一頁式網站</h2>
+                        <p>應用Bootstrap完成RWD響應式網頁設計。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content section 3-->
+    <section>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <a href="http://220.128.133.15/s1130112/drinkshop/index.html"><img class="img-fluid "
+                                src="./portfolio/JSJQ.png" alt="..." /></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2>JSJQ</h2>
+                        <p>運用Javascript及Jquery列出選取商品及計算金額。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Content section 4-->
+    <section>
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <a href="http://220.128.133.15/s1130112/drinkbar/index.php"><img class="img-fluid "
+                                src="./portfolio/mainProject.png" alt="..." /></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2>Full-Stack Web</h2>
+                        <p>獨力完成DrinkBar前端後端資料庫，後端可更動前端顯示資料。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- 學經歷 -->
     <div class="container">
-        <h4 class="text-center fw-bolder">作品集</h4>
+        <h4 class="text-center fw-bolder">學經歷</h4>
         <hr>
         <div class="row">
-            <div class="col">
-                <!-- 圖片 -->
-                <img src="https://picsum.photos/600/400/?random=10">
-            </div>
-            <div class="col">
-                說明 / 連結
+            <ul>
+                <li>
+                    <h4>2024 勞動部職訓局-PHP資料庫網頁設計第01期-結業</h4>
+                </li>
+                <li>
+                    <h4>2012~2016 銘傳大學-資訊管理學系-畢業</h4>
+                </li>
+            </ul>
 
-            </div>
         </div>
+
     </div>
 
-    <hr>
-    <hr>
-    <hr>
-    <hr>
+
 </body>
 
 </html>
